@@ -11,7 +11,7 @@ And run with:
 ```
 java -jar bus-trips.jar 1 5 relative
 ```
-For help use command `--help`.
+For help use command `--help` at the end.
 
 Configuration parameters:
 
