@@ -24,13 +24,13 @@ Configuration parameters:
 
 ### RESPONSE example:
 ```
-2026-02-16T20:43:58.788+01:00  INFO 1976 --- [busTrips] [           main] busTrips.busTrips.runner.InitialRunner   : Stop name is: Uhud battlefield
-2026-02-16T20:43:58.793+01:00  INFO 1976 --- [busTrips] [           main] busTrips.busTrips.runner.InitialRunner   : There is: 5 in the next 2 hours. Next arrivals within the next 2 hours: 
-2026-02-16T20:43:58.795+01:00  INFO 1976 --- [busTrips] [           main] busTrips.busTrips.runner.InitialRunner   : Next arrival from route: 101  at: 22:17:38
-2026-02-16T20:43:58.795+01:00  INFO 1976 --- [busTrips] [           main] busTrips.busTrips.runner.InitialRunner   : Next arrival from route: 105  at: 21:14:24
-2026-02-16T20:43:58.795+01:00  INFO 1976 --- [busTrips] [           main] busTrips.busTrips.runner.InitialRunner   : Next arrival from route: 101  at: 20:58:05
-2026-02-16T20:43:58.795+01:00  INFO 1976 --- [busTrips] [           main] busTrips.busTrips.runner.InitialRunner   : Next arrival from route: 101  at: 20:55
-2026-02-16T20:43:58.795+01:00  INFO 1976 --- [busTrips] [           main] busTrips.busTrips.runner.InitialRunner   : Next arrival from route: 101  at: 20:45
+2026-02-17T07:44:37.712+01:00  INFO 48892 --- [busTrips] [           main] busTrips.busTrips.runner.InitialRunner   : Stop name is: Uhud battlefield
+2026-02-17T07:44:37.715+01:00  INFO 48892 --- [busTrips] [           main] busTrips.busTrips.runner.InitialRunner   : There is: 5 in the next 2 hours. Next arrivals within the next 2 hours: 
+2026-02-17T07:44:37.716+01:00  INFO 48892 --- [busTrips] [           main] busTrips.busTrips.runner.InitialRunner   : Next arrival from route: Short name, id: 101  at: 08:57:36
+2026-02-17T07:44:37.716+01:00  INFO 48892 --- [busTrips] [           main] busTrips.busTrips.runner.InitialRunner   : Next arrival from route: Short name, id: 105  at: 08:40
+2026-02-17T07:44:37.716+01:00  INFO 48892 --- [busTrips] [           main] busTrips.busTrips.runner.InitialRunner   : Next arrival from route: Short name, id: 105  at: 08:26:08
+2026-02-17T07:44:37.716+01:00  INFO 48892 --- [busTrips] [           main] busTrips.busTrips.runner.InitialRunner   : Next arrival from route: Short name, id: 105  at: 08:10
+2026-02-17T07:44:37.716+01:00  INFO 48892 --- [busTrips] [           main] busTrips.busTrips.runner.InitialRunner   : Next arrival from route: Short name, id: 101  at: 07:50
 ```
 
 
