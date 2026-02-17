@@ -119,7 +119,7 @@ public class ReadFiles {
         //Resource resource1 = new ClassPathResource("gtfs/trips.txt");
         //File file = resource1.getFile();
         // try(BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file)))) { //this  was my, but with AI I change to  InputStream
-        try (InputStream inputStream = stopsResource.getInputStream();
+        try (InputStream inputStream = tripsResource.getInputStream();
              BufferedReader br = new BufferedReader(new InputStreamReader(inputStream))) {
             br.readLine(); //skip first line
             String strLine1;
@@ -151,7 +151,7 @@ public class ReadFiles {
         //  Resource resource1 = new ClassPathResource("gtfs/routes.txt");
         //  File file = resource1.getFile();
         // try(BufferedReader br1 = new BufferedReader(new InputStreamReader(new FileInputStream(file)))) { //this  was my, but with AI I change to  InputStream
-        try (InputStream inputStream = stopsResource.getInputStream();
+        try (InputStream inputStream = routesResource.getInputStream();
              BufferedReader br = new BufferedReader(new InputStreamReader(inputStream))) {
             br.readLine(); //skip first line
             String strLine1;
