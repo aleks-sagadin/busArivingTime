@@ -19,7 +19,7 @@ public class BusTripsApplication{
             log.info("[help]   --num_buses_per_line=10 #  The maximum number of upcoming arrivals to show per route.");
             log.info("[help]   --relative|absolute  # Relative of absolute time");
             log.info("[help]   --desc|asc  # For sorting arriving time  "); //this is additional
-            log.info("[help] Run example: java -jar bus-trips.jar --station_id=3 --num_buses_per_line=5 --relative|absolute=relative --desc");
+            log.info("[help] Run example: java -jar bus-trips.jar 3 5 relative asc");
             return;
         }
 		SpringApplication.run(BusTripsApplication.class, args);
