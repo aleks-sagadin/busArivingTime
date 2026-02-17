@@ -19,7 +19,7 @@ Configuration parameters:
 |----------------------|---------------|----------|--------------------------------------------------------|
 | `station_id`         | `1`           | yes      | Id of bus station.                                     |
 | `num_buses_per_line` | `5`           | yes      | Number of arriving times to show.                      |
-| `time`               | `absolute`    | yes      | Type of arriving time. (relative, "absolute")          |
+| `time`               | `absolute`    | yes      | Type of arriving time. ("relative", "absolute")          |
 | `sortType`           | `asc`         | no       | Type of sorting  ascending or descending ("asc,"desc") |
 
 ### RESPONSE example:
