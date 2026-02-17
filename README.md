@@ -4,7 +4,7 @@ Application return buses arriving times within the next 2 hours from the time of
 
 
 ### Usage 
-Download the lastest jar file.
+Download the lastest jar file, from out/artifacts/bus_trips_jar.
 Place in directory.
 
 And run with: 
